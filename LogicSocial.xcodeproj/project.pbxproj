@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E5D8BBA1DB239B2001BC0BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5D8BB91DB239B2001BC0BE /* AppDelegate.swift */; };
+		6E5D8BBC1DB239B2001BC0BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5D8BBB1DB239B2001BC0BE /* ViewController.swift */; };
+		6E5D8BBF1DB239B2001BC0BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E5D8BBD1DB239B2001BC0BE /* Main.storyboard */; };
+		6E5D8BC21DB239B2001BC0BE /* LogicSocial.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6E5D8BC01DB239B2001BC0BE /* LogicSocial.xcdatamodeld */; };
+		6E5D8BC41DB239B2001BC0BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E5D8BC31DB239B2001BC0BE /* Assets.xcassets */; };
+		6E5D8BC71DB239B2001BC0BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E5D8BC51DB239B2001BC0BE /* LaunchScreen.storyboard */; };
+		6E5D8BD21DB239B2001BC0BE /* LogicSocialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5D8BD11DB239B2001BC0BE /* LogicSocialTests.swift */; };
+		6E5D8BDD1DB239B2001BC0BE /* LogicSocialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5D8BDC1DB239B2001BC0BE /* LogicSocialUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E5D8BCE1DB239B2001BC0BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E5D8BAE1DB239B2001BC0BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E5D8BB51DB239B2001BC0BE;
+			remoteInfo = LogicSocial;
+		};
+		6E5D8BD91DB239B2001BC0BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E5D8BAE1DB239B2001BC0BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E5D8BB51DB239B2001BC0BE;
+			remoteInfo = LogicSocial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E5D8BB61DB239B2001BC0BE /* LogicSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogicSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E5D8BB91DB239B2001BC0BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E5D8BBB1DB239B2001BC0BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6E5D8BBE1DB239B2001BC0BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E5D8BC11DB239B2001BC0BE /* LogicSocial.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LogicSocial.xcdatamodel; sourceTree = "<group>"; };
+		6E5D8BC31DB239B2001BC0BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E5D8BC61DB239B2001BC0BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E5D8BC81DB239B2001BC0BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E5D8BCD1DB239B2001BC0BE /* LogicSocialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogicSocialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E5D8BD11DB239B2001BC0BE /* LogicSocialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogicSocialTests.swift; sourceTree = "<group>"; };
+		6E5D8BD31DB239B2001BC0BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E5D8BD81DB239B2001BC0BE /* LogicSocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogicSocialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E5D8BDC1DB239B2001BC0BE /* LogicSocialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogicSocialUITests.swift; sourceTree = "<group>"; };
+		6E5D8BDE1DB239B2001BC0BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E5D8BB31DB239B2001BC0BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5D8BCA1DB239B2001BC0BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5D8BD51DB239B2001BC0BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E5D8BAD1DB239B2001BC0BE = {
+			isa = PBXGroup;
+			children = (
+				6E5D8BB81DB239B2001BC0BE /* LogicSocial */,
+				6E5D8BD01DB239B2001BC0BE /* LogicSocialTests */,
+				6E5D8BDB1DB239B2001BC0BE /* LogicSocialUITests */,
+				6E5D8BB71DB239B2001BC0BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E5D8BB71DB239B2001BC0BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E5D8BB61DB239B2001BC0BE /* LogicSocial.app */,
+				6E5D8BCD1DB239B2001BC0BE /* LogicSocialTests.xctest */,
+				6E5D8BD81DB239B2001BC0BE /* LogicSocialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E5D8BB81DB239B2001BC0BE /* LogicSocial */ = {
+			isa = PBXGroup;
+			children = (
+				6E5D8BB91DB239B2001BC0BE /* AppDelegate.swift */,
+				6E5D8BBB1DB239B2001BC0BE /* ViewController.swift */,
+				6E5D8BBD1DB239B2001BC0BE /* Main.storyboard */,
+				6E5D8BC31DB239B2001BC0BE /* Assets.xcassets */,
+				6E5D8BC51DB239B2001BC0BE /* LaunchScreen.storyboard */,
+				6E5D8BC81DB239B2001BC0BE /* Info.plist */,
+				6E5D8BC01DB239B2001BC0BE /* LogicSocial.xcdatamodeld */,
+			);
+			path = LogicSocial;
+			sourceTree = "<group>";
+		};
+		6E5D8BD01DB239B2001BC0BE /* LogicSocialTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E5D8BD11DB239B2001BC0BE /* LogicSocialTests.swift */,
+				6E5D8BD31DB239B2001BC0BE /* Info.plist */,
+			);
+			path = LogicSocialTests;
+			sourceTree = "<group>";
+		};
+		6E5D8BDB1DB239B2001BC0BE /* LogicSocialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E5D8BDC1DB239B2001BC0BE /* LogicSocialUITests.swift */,
+				6E5D8BDE1DB239B2001BC0BE /* Info.plist */,
+			);
+			path = LogicSocialUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E5D8BB51DB239B2001BC0BE /* LogicSocial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E5D8BE11DB239B2001BC0BE /* Build configuration list for PBXNativeTarget "LogicSocial" */;
+			buildPhases = (
+				6E5D8BB21DB239B2001BC0BE /* Sources */,
+				6E5D8BB31DB239B2001BC0BE /* Frameworks */,
+				6E5D8BB41DB239B2001BC0BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LogicSocial;
+			productName = LogicSocial;
+			productReference = 6E5D8BB61DB239B2001BC0BE /* LogicSocial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E5D8BCC1DB239B2001BC0BE /* LogicSocialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E5D8BE41DB239B2001BC0BE /* Build configuration list for PBXNativeTarget "LogicSocialTests" */;
+			buildPhases = (
+				6E5D8BC91DB239B2001BC0BE /* Sources */,
+				6E5D8BCA1DB239B2001BC0BE /* Frameworks */,
+				6E5D8BCB1DB239B2001BC0BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E5D8BCF1DB239B2001BC0BE /* PBXTargetDependency */,
+			);
+			name = LogicSocialTests;
+			productName = LogicSocialTests;
+			productReference = 6E5D8BCD1DB239B2001BC0BE /* LogicSocialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E5D8BD71DB239B2001BC0BE /* LogicSocialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E5D8BE71DB239B2001BC0BE /* Build configuration list for PBXNativeTarget "LogicSocialUITests" */;
+			buildPhases = (
+				6E5D8BD41DB239B2001BC0BE /* Sources */,
+				6E5D8BD51DB239B2001BC0BE /* Frameworks */,
+				6E5D8BD61DB239B2001BC0BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E5D8BDA1DB239B2001BC0BE /* PBXTargetDependency */,
+			);
+			name = LogicSocialUITests;
+			productName = LogicSocialUITests;
+			productReference = 6E5D8BD81DB239B2001BC0BE /* LogicSocialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E5D8BAE1DB239B2001BC0BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Logicappsource;
+				TargetAttributes = {
+					6E5D8BB51DB239B2001BC0BE = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = JWZKK84V7N;
+						ProvisioningStyle = Automatic;
+					};
+					6E5D8BCC1DB239B2001BC0BE = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = JWZKK84V7N;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6E5D8BB51DB239B2001BC0BE;
+					};
+					6E5D8BD71DB239B2001BC0BE = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = JWZKK84V7N;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6E5D8BB51DB239B2001BC0BE;
+					};
+				};
+			};
+			buildConfigurationList = 6E5D8BB11DB239B2001BC0BE /* Build configuration list for PBXProject "LogicSocial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E5D8BAD1DB239B2001BC0BE;
+			productRefGroup = 6E5D8BB71DB239B2001BC0BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E5D8BB51DB239B2001BC0BE /* LogicSocial */,
+				6E5D8BCC1DB239B2001BC0BE /* LogicSocialTests */,
+				6E5D8BD71DB239B2001BC0BE /* LogicSocialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E5D8BB41DB239B2001BC0BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5D8BC71DB239B2001BC0BE /* LaunchScreen.storyboard in Resources */,
+				6E5D8BC41DB239B2001BC0BE /* Assets.xcassets in Resources */,
+				6E5D8BBF1DB239B2001BC0BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5D8BCB1DB239B2001BC0BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5D8BD61DB239B2001BC0BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E5D8BB21DB239B2001BC0BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5D8BBC1DB239B2001BC0BE /* ViewController.swift in Sources */,
+				6E5D8BBA1DB239B2001BC0BE /* AppDelegate.swift in Sources */,
+				6E5D8BC21DB239B2001BC0BE /* LogicSocial.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5D8BC91DB239B2001BC0BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5D8BD21DB239B2001BC0BE /* LogicSocialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5D8BD41DB239B2001BC0BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5D8BDD1DB239B2001BC0BE /* LogicSocialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E5D8BCF1DB239B2001BC0BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E5D8BB51DB239B2001BC0BE /* LogicSocial */;
+			targetProxy = 6E5D8BCE1DB239B2001BC0BE /* PBXContainerItemProxy */;
+		};
+		6E5D8BDA1DB239B2001BC0BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E5D8BB51DB239B2001BC0BE /* LogicSocial */;
+			targetProxy = 6E5D8BD91DB239B2001BC0BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E5D8BBD1DB239B2001BC0BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E5D8BBE1DB239B2001BC0BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E5D8BC51DB239B2001BC0BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E5D8BC61DB239B2001BC0BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E5D8BDF1DB239B2001BC0BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E5D8BE01DB239B2001BC0BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E5D8BE21DB239B2001BC0BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JWZKK84V7N;
+				INFOPLIST_FILE = LogicSocial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Logicappsource.LogicSocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6E5D8BE31DB239B2001BC0BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JWZKK84V7N;
+				INFOPLIST_FILE = LogicSocial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Logicappsource.LogicSocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6E5D8BE51DB239B2001BC0BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JWZKK84V7N;
+				INFOPLIST_FILE = LogicSocialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Logicappsource.LogicSocialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LogicSocial.app/LogicSocial";
+			};
+			name = Debug;
+		};
+		6E5D8BE61DB239B2001BC0BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JWZKK84V7N;
+				INFOPLIST_FILE = LogicSocialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Logicappsource.LogicSocialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LogicSocial.app/LogicSocial";
+			};
+			name = Release;
+		};
+		6E5D8BE81DB239B2001BC0BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = JWZKK84V7N;
+				INFOPLIST_FILE = LogicSocialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Logicappsource.LogicSocialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LogicSocial;
+			};
+			name = Debug;
+		};
+		6E5D8BE91DB239B2001BC0BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = JWZKK84V7N;
+				INFOPLIST_FILE = LogicSocialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Logicappsource.LogicSocialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LogicSocial;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E5D8BB11DB239B2001BC0BE /* Build configuration list for PBXProject "LogicSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E5D8BDF1DB239B2001BC0BE /* Debug */,
+				6E5D8BE01DB239B2001BC0BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E5D8BE11DB239B2001BC0BE /* Build configuration list for PBXNativeTarget "LogicSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E5D8BE21DB239B2001BC0BE /* Debug */,
+				6E5D8BE31DB239B2001BC0BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6E5D8BE41DB239B2001BC0BE /* Build configuration list for PBXNativeTarget "LogicSocialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E5D8BE51DB239B2001BC0BE /* Debug */,
+				6E5D8BE61DB239B2001BC0BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6E5D8BE71DB239B2001BC0BE /* Build configuration list for PBXNativeTarget "LogicSocialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E5D8BE81DB239B2001BC0BE /* Debug */,
+				6E5D8BE91DB239B2001BC0BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6E5D8BC01DB239B2001BC0BE /* LogicSocial.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6E5D8BC11DB239B2001BC0BE /* LogicSocial.xcdatamodel */,
+			);
+			currentVersion = 6E5D8BC11DB239B2001BC0BE /* LogicSocial.xcdatamodel */;
+			path = LogicSocial.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6E5D8BAE1DB239B2001BC0BE /* Project object */;
+}
